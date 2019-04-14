@@ -1,0 +1,24 @@
+{
+  "name": "socketserver",
+  "version": "1.0.0",
+  "description": "Servidor de SOckets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sockets"
+  ],
+  "author": "Luis Cruz",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.4",
+    "@types/express": "^4.16.1",
+    "@types/node": "^11.13.4"
+  }
+}
