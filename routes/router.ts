@@ -19,16 +19,4 @@ router.post('/mensajes', ( req: Request, res: Response ) => {
     });
 });
 
-router.post('/mensajes/:id', ( req: Request, res: Response ) => {
-    let id = req.params.id;
-    let mensaje = req.body.mensaje;
-    let remitente = req.body.remitente;
-    res.json({
-        ok: true,
-        id: id,
-        mensaje: mensaje,
-        remitente: remitente
-    });
-});
-
 export default router;
